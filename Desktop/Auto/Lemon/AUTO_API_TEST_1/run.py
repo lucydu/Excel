@@ -21,5 +21,5 @@ with open(pro_path.test_report_path,'wb+') as file:
     runner.run(suite)
 
 #添加发送邮件的请求
-sendEmail().send_email('505978451@qq.com',pro_path.test_report_path)
+sendEmail().send_email('746674534@qq.com',pro_path.test_report_path)
 sendEmail().send_email('505978451@qq.com',pro_path.test_log_path)
