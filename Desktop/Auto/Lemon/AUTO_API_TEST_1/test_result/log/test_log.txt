@@ -1,0 +1,245 @@
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687015','pwd':'123456'}
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?mobilephone=18999687015&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687015','pwd':'123456'}
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687015','pwd':'123456'}
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?mobilephone=18999687015&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 20:50:09-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687015','amount':'1000'}
+Thu, 06 Sep 2018 20:50:09-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 20:50:10-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?mobilephone=18999687015&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 21:00:54-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 21:00:54-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 21:00:54-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687016','pwd':'123456'}
+Thu, 06 Sep 2018 21:00:54-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 21:00:54-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?pwd=123456&mobilephone=18999687016 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687016','pwd':'123456'}
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687016','pwd':'123456'}
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?pwd=123456&mobilephone=18999687016 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 21:00:55-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687016','amount':'1000'}
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 21:00:55-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?amount=1000&mobilephone=18999687016 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','amount':'1000'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第5条用例：正常提现
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','amount':'1000'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第6条用例：加标
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/add
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'23523','title':to_add_loan', 'amount' : '10000','loanRate':'12.0','loanTerm':'3','loanDateType':'0','repaymemtWay':'11','biddingDays':'5'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第7条用例：审核标
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/audit
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'id' : '${loan_id}', 'status' : '4'}
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:正在执行第8条用例：投资
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/bidLoan
+Thu, 06 Sep 2018 22:01:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'${member_id}', 'password':'123456','loanId' : '${loan_id}','amount' : '100'}
+Thu, 06 Sep 2018 22:02:40-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 22:02:40-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:02:40-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:02:40-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:40-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?pwd=123456&mobilephone=18999687018 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:02:41-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:41-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 22:02:41-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','pwd':'123456'}
+Thu, 06 Sep 2018 22:02:41-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:41-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?pwd=123456&mobilephone=18999687018 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','amount':'1000'}
+Thu, 06 Sep 2018 22:02:42-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:42-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?amount=1000&mobilephone=18999687018 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:正在执行第5条用例：正常提现
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw
+Thu, 06 Sep 2018 22:02:42-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687018','amount':'1000'}
+Thu, 06 Sep 2018 22:02:42-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:42-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/withdraw?amount=1000&mobilephone=18999687018 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:正在执行第6条用例：加标
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/add
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'23523','title':to_add_loan', 'amount' : '10000','loanRate':'12.0','loanTerm':'3','loanDateType':'0','repaymemtWay':'11','biddingDays':'5'}
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:正在执行第7条用例：审核标
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/audit
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的参数是：{'id' : '${loan_id}', 'status' : '4'}
+Thu, 06 Sep 2018 22:02:43-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:02:43-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/audit?status=4&id= HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:02:43-ERROR-test_http_request.py-日志信息:断言出错了，错误是：10001 != 20203
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:正在执行第8条用例：投资
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/bidLoan
+Thu, 06 Sep 2018 22:02:43-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'${member_id}', 'password':'123456','loanId' : '${loan_id}','amount' : '100'}
+Thu, 06 Sep 2018 22:07:30-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 22:07:30-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:07:30-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687019','pwd':'123456'}
+Thu, 06 Sep 2018 22:07:30-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:30-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?mobilephone=18999687019&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:获取到的loanidNone
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687019','pwd':'123456'}
+Thu, 06 Sep 2018 22:07:31-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:31-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:获取到的loanidNone
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 22:07:31-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687019','pwd':'123456'}
+Thu, 06 Sep 2018 22:07:31-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:31-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?mobilephone=18999687019&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:获取到的loanidNone
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687019','amount':'1000'}
+Thu, 06 Sep 2018 22:07:32-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:32-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?mobilephone=18999687019&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:获取到的loanidNone
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:正在执行第5条用例：正常提现
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw
+Thu, 06 Sep 2018 22:07:32-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687019','amount':'1000'}
+Thu, 06 Sep 2018 22:07:32-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:32-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/withdraw?mobilephone=18999687019&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:获取到的loanidNone
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:正在执行第6条用例：加标
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/add
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'23523','title':'to_add_loan', 'amount' :'10000','loanRate':'12.0','loanTerm':'3','loanDateType':'0','repaymemtWay':'11','biddingDays':'5'}
+Thu, 06 Sep 2018 22:07:33-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:33-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/add?loanRate=12.0&loanDateType=0&loanTerm=3&biddingDays=5&amount=10000&memberId=23523&title=to_add_loan&repaymemtWay=11 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:正在执行第7条用例：审核标
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/audit
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:发起请求的参数是：{'id' : '${loan_id}', 'status' : '4'}
+Thu, 06 Sep 2018 22:07:33-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:33-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/audit?status=4&id=1754 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:33-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:07:34-INFO-test_http_request.py-日志信息:正在执行第8条用例：投资
+Thu, 06 Sep 2018 22:07:34-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/bidLoan
+Thu, 06 Sep 2018 22:07:34-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'${member_id}', 'password':'123456','loanId' : '${loan_id}','amount' : '100'}
+Thu, 06 Sep 2018 22:07:34-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:07:34-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/bidLoan?password=123456&amount=100&memberId=29617&loanId=1754 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:07:34-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687020','pwd':'123456'}
+Thu, 06 Sep 2018 22:08:46-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:46-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?mobilephone=18999687020&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687020','pwd':'123456'}
+Thu, 06 Sep 2018 22:08:46-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:46-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:46-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687020','pwd':'123456'}
+Thu, 06 Sep 2018 22:08:47-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:47-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?mobilephone=18999687020&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687020','amount':'1000'}
+Thu, 06 Sep 2018 22:08:47-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:47-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?mobilephone=18999687020&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:47-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:正在执行第5条用例：正常提现
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687020','amount':'1000'}
+Thu, 06 Sep 2018 22:08:48-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:48-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/withdraw?mobilephone=18999687020&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:获取到的loanid1754
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:正在执行第6条用例：加标
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/add
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'23523','title':'to_add_loan', 'amount' :'10000','loanRate':'12.0','loanTerm':'3','loanDateType':'0','repaymemtWay':'11','biddingDays':'5'}
+Thu, 06 Sep 2018 22:08:48-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:48-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/add?loanRate=12.0&repaymemtWay=11&loanDateType=0&memberId=23523&amount=10000&loanTerm=3&biddingDays=5&title=to_add_loan HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:正在执行第7条用例：审核标
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/audit
+Thu, 06 Sep 2018 22:08:48-INFO-test_http_request.py-日志信息:发起请求的参数是：{'id' : '${loan_id}', 'status' : '4'}
+Thu, 06 Sep 2018 22:08:48-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:49-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/audit?status=4&id=1755 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:49-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:08:49-INFO-test_http_request.py-日志信息:正在执行第8条用例：投资
+Thu, 06 Sep 2018 22:08:49-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/bidLoan
+Thu, 06 Sep 2018 22:08:49-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'${member_id}', 'password':'123456','loanId' : '${loan_id}','amount' : '100'}
+Thu, 06 Sep 2018 22:08:49-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:08:49-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/bidLoan?memberId=29618&amount=100&loanId=1755&password=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:08:49-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:39-INFO-test_http_request.py-日志信息:正在执行第1条用例：正常注册
+Thu, 06 Sep 2018 22:09:39-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:09:39-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687021','pwd':'123456'}
+Thu, 06 Sep 2018 22:09:39-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:39-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/register?mobilephone=18999687021&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:正在执行第2条用例：重复注册
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/register
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687021','pwd':'123456'}
+Thu, 06 Sep 2018 22:09:40-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:40-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "POST /futureloan/mvc/api/member/register HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:正在执行第3条用例：正常登录
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/login
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687021','pwd':'123456'}
+Thu, 06 Sep 2018 22:09:40-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:40-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/login?mobilephone=18999687021&pwd=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:40-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:正在执行第4条用例：正常充值
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/recharge
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687021','amount':'1000'}
+Thu, 06 Sep 2018 22:09:41-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:41-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/recharge?mobilephone=18999687021&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:正在执行第5条用例：正常提现
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/withdraw
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:发起请求的参数是：{'mobilephone':'18999687021','amount':'1000'}
+Thu, 06 Sep 2018 22:09:41-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:41-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/withdraw?mobilephone=18999687021&amount=1000 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:41-INFO-test_http_request.py-日志信息:获取到的loanid1755
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:正在执行第6条用例：加标
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/add
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'23523','title':'to_add_loan', 'amount' :'10000','loanRate':'12.0','loanTerm':'3','loanDateType':'0','repaymemtWay':'11','biddingDays':'5'}
+Thu, 06 Sep 2018 22:09:42-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:42-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/add?memberId=23523&amount=10000&loanRate=12.0&loanDateType=0&biddingDays=5&repaymemtWay=11&loanTerm=3&title=to_add_loan HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:获取到的loanid1756
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:正在执行第7条用例：审核标
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/loan/audit
+Thu, 06 Sep 2018 22:09:42-INFO-test_http_request.py-日志信息:发起请求的参数是：{'id' : '1756', 'status' : '4'}
+Thu, 06 Sep 2018 22:09:42-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:42-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/loan/audit?id=1756&status=4 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:43-INFO-test_http_request.py-日志信息:获取到的loanid1756
+Thu, 06 Sep 2018 22:09:43-INFO-test_http_request.py-日志信息:正在执行第8条用例：投资
+Thu, 06 Sep 2018 22:09:43-INFO-test_http_request.py-日志信息:发起请求的地址是：http://119.23.241.154:8080/futureloan/mvc/api/member/bidLoan
+Thu, 06 Sep 2018 22:09:43-INFO-test_http_request.py-日志信息:发起请求的参数是：{'memberId':'29619', 'password':'123456','loanId' : '1756','amount' : '100'}
+Thu, 06 Sep 2018 22:09:43-DEBUG-connectionpool.py-日志信息:Starting new HTTP connection (1): 119.23.241.154
+Thu, 06 Sep 2018 22:09:43-DEBUG-connectionpool.py-日志信息:http://119.23.241.154:8080 "GET /futureloan/mvc/api/member/bidLoan?memberId=29619&amount=100&loanId=1756&password=123456 HTTP/1.1" 200 None
+Thu, 06 Sep 2018 22:09:43-INFO-test_http_request.py-日志信息:获取到的loanid1756
